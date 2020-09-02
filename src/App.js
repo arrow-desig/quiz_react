@@ -2,15 +2,14 @@ import React from "react";
 import { Component } from "react";
 
 import Layout from "./hoc/Layout/Layout";
+import Quiz from "./contains/Quiz/Quiz";
 
 class App extends Component {
   render() {
     return (
       <div>
         <Layout>
-          <div>
-            <h1>Layout components</h1>
-          </div>
+          <Quiz />
         </Layout>
       </div>
     );
