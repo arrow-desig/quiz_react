@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import classes from "./AnswerItem.module.css";
 
 const AnswerItem = (props) => {
